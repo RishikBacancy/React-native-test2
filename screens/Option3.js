@@ -1,11 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import TabNavigators from "./navigation/TabNavigation";
 
-const App = () =>
+const Option3 = props =>
 {
   return(
-    <TabNavigators/>
+    <View style={styles.screen}>
+      <Text>Option3</Text>
+    </View>
   );
 };
 
@@ -17,4 +18,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default App;
+export default Option3;
