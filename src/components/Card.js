@@ -3,7 +3,6 @@ import { View, Text, StyleSheet} from "react-native";
 
 const Card = props => 
 {
-    const bgColor = props.bgColor;
 
     return(
         <View style={styles.cardContainer}>

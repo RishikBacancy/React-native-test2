@@ -1,11 +1,11 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-const Option3 = props =>
+const Option2 = () =>
 {
   return(
     <View style={styles.screen}>
-      <Text>Option3</Text>
+      <Text>Option2</Text>
     </View>
   );
 };
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Option3;
+export default Option2;
